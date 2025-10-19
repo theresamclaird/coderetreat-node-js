@@ -1,4 +1,4 @@
-# Coderetreat React (TypeScript)
+# Coderetreat Node (JavaScript)
 
 A minimal Node + JavaScript starter for coderetreats.
 
