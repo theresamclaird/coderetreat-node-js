@@ -1,0 +1,27 @@
+{
+  "name": "coderetreat-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "test:ci": "node --experimental-vm-modules node_modules/jest/bin/jest.js --ci",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "reset:git": "git reset --hard HEAD && git clean -fdx",
+    "reset:baseline": "node scripts/reset-baseline.mjs"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^9.38.0",
+    "jest": "^30.2.0",
+    "prettier": "^3.6.2"
+  }
+}
