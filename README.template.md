@@ -1,8 +1,3 @@
-<!--
-  NOTE: This file is generated. Do not edit README.md directly.
-  Edit README.template.md and shared fragments in vendor/coderetreat-docs/.
--->
-
 # Coderetreat Starter: Node, JavaScript, Jest
 
 A minimal Node + JavaScript + Jest starter for coderetreats.
@@ -36,21 +31,6 @@ This script will restore your `src/` folder to its clean, starting state. Do thi
 npm run reset:baseline
 ```
 
-<!-- begin-include: docs/learn-more.md -->
-## Learn More
+<!-- include: docs/learn-more.md levelOffset=1 -->
 
-- [What to Expect](./docs/what-to-expect.md)
-- [Goals of a Coderetreat](./docs/goals.md)
-- [Pairing and Collaboration](./docs/pairing-and-collaboration.md)
-- [Constraints](./docs/constraints.md)
-- [Four Rules of Simple Design](./docs/four-rules-of-simple-design.md)
-- [The TDD Cycle](./docs/tdd-cycle.md)
-- [Conway's Game of Life](./docs/conways-game-of-life.md)
-- [Other Katas](./docs/other-katas.md)
-<!-- end-include: docs/learn-more.md -->
-
-<!-- begin-include: docs/license.md -->
-### License
-
-This project is open for educational use. Feel free to fork, modify, and share it for your own coderetreats.
-<!-- end-include: docs/license.md -->
+<!-- include: docs/license.md levelOffset=1 -->
